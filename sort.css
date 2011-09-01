@@ -1,0 +1,45 @@
+html, body{
+font-family: 'Lekton', arial, serif;
+  font-size: 100%;
+}
+
+body{
+text-align: center;
+}
+
+#container{
+  margin: auto;
+  border-radius: 5px;
+  position: relative;
+  border: 1px solid #ccc;
+}
+
+.box{
+  position: absolute;
+  width: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  bottom: 5px;
+}
+
+p {
+  width: 800px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+
+button{
+  font-size: 100%;
+  color: #fff;
+  text-shadow: 1px 1px #333;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 4px 6px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbb), to(#666));
+}
+
+button:hover{
+  border-color: #444;
+}
